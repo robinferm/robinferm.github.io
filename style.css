@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+/***** Header (side bar) *****/
+.header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto; */
+    
+}
+
+.header .nav-menu {
+    background-color: orange
+}
+
+.header .nav-menu li {
+    padding: 20px;
+    border: solid blueviolet;
+}
+
+/***** Home section *****/
+.home {
+    display: flex;
+    background-color: hotpink;
+    min-height: 500px;
+    font-size: 27px;
+}
+
+.home .home-content {
+    padding-left: 100px;
+}
+
+.home .home-content .name {
+    font-size: 50px;
+}
+
+/***** Projects section *****/
+.projects {
+    background-color: yellow;
+}
+
+/***** About section *****/
+.about {
+    background-color: lightgreen;
+}
+
+/***** Contact section *****/
+.contacts {
+    background-color: lightblue;
+}
