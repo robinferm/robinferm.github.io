@@ -76,26 +76,23 @@ section {
     margin-left: 20px;
 }
 
-.linkedin-button-icon {
+.linkedin-button {
     background: url('icons/linkedin-logo-png.png');
     background-size: cover;
     display: inline-block;
-    height: 100%;
-    width: 100%;
 }
 
-.github-button-icon {
+.github-button {
     background: url('icons/github-transparent.png');
     background-size: cover;
     display: inline-block;
-    height: 100%;
-    width: 100%;
 }
 
 .contact-button {
     font-size: 35px;
     margin-left: auto;
     float: right;
+    border: solid black;
 }
 
 /***** Projects section *****/
