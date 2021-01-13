@@ -4,7 +4,11 @@
 }
 
 body {
-    background-color: grey;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: #404040;
 }
 
 /***** Header (side bar) *****/
@@ -27,42 +31,87 @@ body {
     
 }
 
-.header .nav-menu {
+.nav-menu {
     background-color: orange
 }
 
-.header .nav-menu li {
+.nav-menu li {
     padding: 20px;
     border: solid blueviolet;
 }
 
 /***** Home section *****/
 .home {
-    display: flex;
-    background-color: hotpink;
+    background-color: #404040;
     min-height: 500px;
-    font-size: 27px;
 }
 
-.home .home-content {
-    padding-left: 100px;
+.home-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 300px;
+    width: 500px;
+    color: white;
 }
 
-.home .home-content .name {
+.name-text {
     font-size: 50px;
+}
+
+.title-text {
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.link-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+}
+
+.linkedin-button-icon {
+    background: url('icons/linkedin-logo-png.png');
+    background-size: cover;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.github-button-icon {
+    background: url('icons/github-transparent.png');
+    background-size: cover;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-button {
+    font-size: 35px;
+    margin-left: auto;
+    float: right;
 }
 
 /***** Projects section *****/
 .projects {
     background-color: yellow;
+    min-height: 500px;
 }
 
 /***** About section *****/
 .about {
     background-color: lightgreen;
+    min-height: 500px;
 }
 
 /***** Contact section *****/
-.contacts {
+.contact {
     background-color: lightblue;
+    min-height: 500px;
 }
