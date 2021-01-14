@@ -12,7 +12,7 @@ body {
 }
 
 section {
-    background-color: #404040;
+    background-color: #2a3132;
 }
 
 /***** Header (side bar) *****/
@@ -27,22 +27,27 @@ section {
 
 .nav-menu li {
     margin: 20px;
-    
     list-style: none;
-    background-color: #404040;
-    width: 150px;
+    background-color: #2a3132;
+    width: 130px;
 }
 
 .nav-menu a {
     color: white;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     padding: 10px;
     text-decoration: none;
     margin: auto;
     border-style: solid;
     border-width: 1px;
-    border-color: white;
+    /* border-color: #336b87; */
+    border-color: white
+}
+
+.nav-menu i {
+    width: 50px;
+    height: 35px;
 }
 
 .nav-menu span {
@@ -56,7 +61,7 @@ section {
 
 /***** Home section *****/
 .home-section {
-    background-color: #404040;
+    background-color: #2a3132;
     min-height: 500px;
 }
 
