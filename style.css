@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -19,29 +23,39 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 9997;
-    transition: all 0.5s;
-    padding: 15px;
-    overflow-y: auto; */
-    
-}
-
-.nav-menu {
-    background-color: orange
 }
 
 .nav-menu li {
-    padding: 20px;
-    border: solid blueviolet;
+    margin: 20px;
+    
+    list-style: none;
+    background-color: #404040;
+    width: 150px;
+}
+
+.nav-menu a {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-decoration: none;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.nav-menu span {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.fas {
+    font-size: 35px;
 }
 
 /***** Home section *****/
-.home {
+.home-section {
     background-color: #404040;
     min-height: 500px;
 }
@@ -92,23 +106,26 @@ section {
     font-size: 35px;
     margin-left: auto;
     float: right;
-    border: solid black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 10px;
 }
 
 /***** Projects section *****/
-.projects {
+.projects-section {
     background-color: yellow;
     min-height: 500px;
 }
 
 /***** About section *****/
-.about {
+.about-section {
     background-color: lightgreen;
     min-height: 500px;
 }
 
 /***** Contact section *****/
-.contact {
+.contact-section {
     background-color: lightblue;
     min-height: 500px;
 }
