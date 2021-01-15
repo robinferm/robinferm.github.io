@@ -35,7 +35,6 @@ section {
 .nav-menu a {
     color: white;
     display: flex;
-    /* justify-content: space-between; */
     padding: 10px;
     text-decoration: none;
     margin: auto;
@@ -54,6 +53,8 @@ section {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.button-colored { background-color:#763626; }
 
 .fas {
     font-size: 35px;
