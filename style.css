@@ -5,14 +5,24 @@
 
 html {
     scroll-behavior: smooth;
+
 }
 
 body {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 section {
     background-color: #2a3132;
+    height: 100vh;
+}
+
+.section-title {
+    font-size: 6em;
+    display: flex;
+    justify-content: center;
 }
 
 /***** Header (side bar) *****/
@@ -35,7 +45,7 @@ section {
 .nav-menu a {
     color: white;
     display: flex;
-    padding: 10px;
+    padding: 0.6rem;
     text-decoration: none;
     margin: auto;
     border-style: solid;
@@ -56,36 +66,38 @@ section {
 
 .button-colored { background-color:#763626; }
 
+.lightCyan {
+    background-color: #DFFDFF;
+}
+
 .fas {
     font-size: 35px;
 }
 
 /***** Home section *****/
-.home-section {
-    background-color: #2a3132;
-    min-height: 500px;
-}
 
 .home-content {
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 150px;
-    margin-left: 300px;
+    margin-top: 15rem;
+    margin-left: 15rem;
     width: 500px;
     color: white;
 }
 
 .name-text {
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .title-text {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .buttons {
-    margin-top: 20px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .link-button {
@@ -109,29 +121,19 @@ section {
 }
 
 .contact-button {
-    font-size: 35px;
+    font-size: 2rem;
     margin-left: auto;
     float: right;
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 /***** Projects section *****/
-.projects-section {
-    background-color: yellow;
-    min-height: 500px;
-}
+
 
 /***** About section *****/
-.about-section {
-    background-color: lightgreen;
-    min-height: 500px;
-}
+
 
 /***** Contact section *****/
-.contact-section {
-    background-color: lightblue;
-    min-height: 500px;
-}
