@@ -12,10 +12,14 @@ body {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    color: #E1E1E1;
 }
 
 section {
-    background-color: #2a3132;
+    /* background-color: #2a3132; */
+    background-color: #0C0C0C;
+    /* background: linear-gradient(to right, #000000 0%, #0C0C0C 100%); */
     height: 100vh;
 }
 
@@ -23,6 +27,7 @@ section {
     font-size: 6em;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 }
 
 /***** Header (side bar) *****/
@@ -38,12 +43,12 @@ section {
 .nav-menu li {
     margin: 20px;
     list-style: none;
-    background-color: #2a3132;
+    background-color: #0C0C0C;
     width: 130px;
 }
 
 .nav-menu a {
-    color: white;
+    color: #E1E1E1;
     display: flex;
     padding: 0.6rem;
     text-decoration: none;
@@ -51,7 +56,7 @@ section {
     border-style: solid;
     border-width: 1px;
     /* border-color: #336b87; */
-    border-color: white
+    border-color: #E1E1E1
 }
 
 .nav-menu i {
@@ -64,11 +69,7 @@ section {
     margin-bottom: auto;
 }
 
-.button-colored { background-color:#763626; }
-
-.lightCyan {
-    background-color: #DFFDFF;
-}
+.button-colored { background-color: #336B87; }
 
 .fas {
     font-size: 35px;
@@ -76,14 +77,26 @@ section {
 
 /***** Home section *****/
 
+.home-image {
+    float: right;
+    height: 70vh;
+    margin-top: 5rem;
+    margin-right: 7rem;
+}
+
 .home-content {
+    margin-top: 15rem;
+    margin-left: 17rem;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    margin-top: 15rem;
-    margin-left: 15rem;
-    width: 500px;
-    color: white;
+}
+
+.title-text, .name-text {
+    letter-spacing: .05em;
+    text-shadow: 
+      -1px -1px 1px #336B87, 
+      2px 2px 1px #336B87;
 }
 
 .name-text {
@@ -91,13 +104,14 @@ section {
 }
 
 .title-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .buttons {
     margin-top: 2rem;
     display: flex;
     align-items: center;
+    width: 90%;
 }
 
 .link-button {
@@ -115,7 +129,7 @@ section {
 }
 
 .github-button {
-    background: url('icons/github-transparent.png');
+    background: url('icons/github-transparent-white2.png');
     background-size: cover;
     display: inline-block;
 }
@@ -126,13 +140,36 @@ section {
     float: right;
     border-style: solid;
     border-width: 1px;
-    border-color: white;
+    border-color: #E1E1E1;
     padding: 0.5rem;
 }
 
 /***** Projects section *****/
 
+.projects-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.projects-container {
+    display: flex;
+    justify-content: center;
+    /* width: 80vw; */
+}
+
+.project {
+    border: 5px solid #336B87;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 17em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 /***** About section *****/
 
 
