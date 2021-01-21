@@ -25,9 +25,12 @@ section {
 
 .section-title {
     font-size: 6em;
+    /* display: flex;
+    justify-content: center; */
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    margin: 30px auto;
+    /* padding-top: 80px; */
 }
 
 /***** Header (side bar) *****/
@@ -77,9 +80,13 @@ section {
 
 /***** Home section *****/
 
+/* .home-section {
+    height: 100vh;
+} */
+
 .home-image {
     float: right;
-    height: 70vh;
+    height: 900px;
     margin-top: 5rem;
     margin-right: 7rem;
 }
@@ -94,8 +101,8 @@ section {
 
 .title-text, .name-text {
     letter-spacing: .05em;
-    text-shadow: 
-      -1px -1px 1px #336B87, 
+    text-shadow:
+      -1px -1px 1px #336B87,
       2px 2px 1px #336B87;
 }
 
@@ -142,35 +149,92 @@ section {
     border-width: 1px;
     border-color: #E1E1E1;
     padding: 0.5rem;
+    text-decoration: none;
+    color: #E1E1E1;
 }
+
 
 /***** Projects section *****/
-
-.projects-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .projects-container {
     display: flex;
     justify-content: center;
+}
+
+.projects-content {
+    /* display: flex;
+    justify-content: center; */
     /* width: 80vw; */
+    display: grid;
+    grid-template-columns: 35em 30em;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    margin: 30px auto;
+
 }
 
 .project {
     border: 5px solid #336B87;
-    margin-top: 150px;
+    /* margin-top: 150px;
     margin-left: 20px;
-    margin-right: 20px;
-    width: 17em;
-    height: 20em;
+    margin-right: 20px; */
+    width: 35em;
+    height: 30em;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 /***** About section *****/
 
+.about-section {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.about-content {
+    display: flex;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.about-image {
+    height: 400px;
+}
+
+.resume a {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    color:#E1E1E1;
+    text-decoration: none;
+}
+
+.resume img {
+    height: 200px;
+}
+
 
 /***** Contact section *****/
+
+.contact-section {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
